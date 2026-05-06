@@ -1,0 +1,1554 @@
+{
+    "title": "Ultimate 150-Day Java + DSA Mastery Roadmap",
+    "version": "2026.1",
+    "totalDays": 150,
+    "phases": [
+        {
+            "phase": 1,
+            "title": "Java Foundations & Core Problem Solving",
+            "range": "Day 1-30",
+            "weeks": [
+                {
+                    "week": 1,
+                    "title": "Java Basics",
+                    "days": [
+                        {
+                            "day": 1,
+                            "title": "Java Setup & First Program",
+                            "definition": "Understanding how Java code compiles and runs using JVM.",
+                            "topics": [
+                                "Install JDK 21",
+                                "javac vs java",
+                                "print vs println",
+                                "First arithmetic program",
+                                "Understanding compilation"
+                            ]
+                        },
+                        {
+                            "day": 2,
+                            "title": "Variables & Primitive Data Types",
+                            "definition": "Variables store data in memory using fixed-size primitive types.",
+                            "topics": [
+                                "byte",
+                                "short",
+                                "int",
+                                "long",
+                                "float vs double",
+                                "char and boolean",
+                                "Integer overflow",
+                                "Type casting"
+                            ]
+                        },
+                        {
+                            "day": 3,
+                            "title": "Input Handling Using Scanner",
+                            "definition": "Scanner reads input streams from keyboard.",
+                            "topics": [
+                                "next()",
+                                "nextLine()",
+                                "nextInt()",
+                                "Scanner buffer issue",
+                                "Reading multiple inputs",
+                                "Basic calculator program"
+                            ]
+                        },
+                        {
+                            "day": 4,
+                            "title": "Conditional Statements",
+                            "definition": "Programs make decisions using boolean conditions.",
+                            "topics": [
+                                "if/else",
+                                "nested conditions",
+                                "switch statements",
+                                "Leap year problem"
+                            ]
+                        },
+                        {
+                            "day": 5,
+                            "title": "Loops & Iteration",
+                            "definition": "Loops repeatedly execute code blocks.",
+                            "topics": [
+                                "for loop",
+                                "while loop",
+                                "do while",
+                                "break and continue",
+                                "Infinite loops"
+                            ]
+                        },
+                        {
+                            "day": 6,
+                            "title": "Methods & Functional Thinking",
+                            "definition": "Methods encapsulate reusable logic.",
+                            "topics": [
+                                "Parameters",
+                                "Return values",
+                                "Method overloading",
+                                "Scope of variables"
+                            ]
+                        },
+                        {
+                            "day": 7,
+                            "title": "Time & Space Complexity",
+                            "definition": "Complexity measures algorithm efficiency.",
+                            "topics": [
+                                "Big O",
+                                "Big Omega",
+                                "Big Theta",
+                                "Constant vs linear vs logarithmic growth",
+                                "Space complexity"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 2,
+                    "title": "Arrays & Patterns",
+                    "days": [
+                        {
+                            "day": 8,
+                            "title": "Arrays Introduction",
+                            "definition": "Arrays store contiguous fixed-size collections.",
+                            "topics": [
+                                "Array memory model",
+                                "Indexing",
+                                "Traversal",
+                                "Input/output arrays"
+                            ]
+                        },
+                        {
+                            "day": 9,
+                            "title": "Linear Search",
+                            "definition": "Sequentially checking every element.",
+                            "topics": [
+                                "O(n) searching",
+                                "Best/worst case",
+                                "Frequency counting"
+                            ]
+                        },
+                        {
+                            "day": 10,
+                            "title": "Two Pointer Technique",
+                            "definition": "Using two indices to optimize traversal.",
+                            "topics": [
+                                "Reverse array",
+                                "Pair sum",
+                                "Sorted arrays",
+                                "Opposite-direction pointers"
+                            ]
+                        },
+                        {
+                            "day": 11,
+                            "title": "Subarrays & Subsequences",
+                            "definition": "Subarrays are contiguous; subsequences are not.",
+                            "topics": [
+                                "Generate all subarrays",
+                                "Prefix concepts",
+                                "Counting subarrays"
+                            ]
+                        },
+                        {
+                            "day": 12,
+                            "title": "Kadane’s Algorithm",
+                            "definition": "Finds maximum sum contiguous subarray in O(n).",
+                            "topics": [
+                                "Running sum",
+                                "Reset logic",
+                                "Negative arrays"
+                            ]
+                        },
+                        {
+                            "day": 13,
+                            "title": "Dutch National Flag Algorithm",
+                            "definition": "3-way partitioning algorithm for sorting 0/1/2.",
+                            "topics": [
+                                "low/mid/high pointers",
+                                "Partition logic",
+                                "In-place sorting"
+                            ]
+                        },
+                        {
+                            "day": 14,
+                            "title": "Prefix Sum & Difference Arrays",
+                            "definition": "Precompute cumulative sums for fast range queries.",
+                            "topics": [
+                                "Prefix arrays",
+                                "Range sum queries",
+                                "Difference arrays",
+                                "Range updates"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 3,
+                    "title": "Sliding Window & Strings",
+                    "days": [
+                        {
+                            "day": 15,
+                            "title": "Sliding Window (Fixed)",
+                            "definition": "Maintaining a window of fixed size over data.",
+                            "topics": [
+                                "Max sum subarray of size K",
+                                "Window optimization",
+                                "O(n) traversal"
+                            ]
+                        },
+                        {
+                            "day": 16,
+                            "title": "StringBuilder",
+                            "definition": "Mutable string container for efficient modifications.",
+                            "topics": [
+                                "append()",
+                                "reverse()",
+                                "insert()",
+                                "Mutable strings"
+                            ]
+                        },
+                        {
+                            "day": 17,
+                            "title": "String Problems",
+                            "definition": "String traversal and manipulation patterns.",
+                            "topics": [
+                                "Palindrome",
+                                "Anagram",
+                                "Character frequency",
+                                "ASCII handling"
+                            ]
+                        },
+                        {
+                            "day": 18,
+                            "title": "Sliding Window (Variable)",
+                            "definition": "Dynamic window expansion and shrinking.",
+                            "topics": [
+                                "Longest substring without repetition",
+                                "At most K distinct characters",
+                                "Dynamic conditions"
+                            ]
+                        },
+                        {
+                            "day": 19,
+                            "title": "String Matching Basics",
+                            "definition": "Searching patterns inside strings.",
+                            "topics": [
+                                "Naive matching",
+                                "startsWith()",
+                                "contains()",
+                                "Pattern logic"
+                            ]
+                        },
+                        {
+                            "day": 20,
+                            "title": "String Rotation & Cyclic Problems",
+                            "definition": "Detect cyclic shifts and rotations.",
+                            "topics": [
+                                "Rotation check",
+                                "Concatenation trick",
+                                "Cyclic traversal"
+                            ]
+                        },
+                        {
+                            "day": 21,
+                            "title": "Bit Manipulation Basics",
+                            "definition": "Binary-level operations for optimization.",
+                            "topics": [
+                                "XOR",
+                                "AND/OR",
+                                "Set bits",
+                                "Power of two",
+                                "Odd/even checks"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 4,
+                    "title": "Matrix + Recursion",
+                    "days": [
+                        {
+                            "day": 22,
+                            "title": "2D Arrays & Matrices",
+                            "definition": "Grids stored as arrays of arrays.",
+                            "topics": [
+                                "Matrix traversal",
+                                "Rows/columns",
+                                "Input handling"
+                            ]
+                        },
+                        {
+                            "day": 23,
+                            "title": "Matrix Transformations",
+                            "definition": "Changing matrix orientation and layout.",
+                            "topics": [
+                                "Transpose",
+                                "Rotate matrix",
+                                "Spiral traversal"
+                            ]
+                        },
+                        {
+                            "day": 24,
+                            "title": "Recursion Basics",
+                            "definition": "Functions solving smaller versions of themselves.",
+                            "topics": [
+                                "Base case",
+                                "Recursive stack",
+                                "Recursive tracing"
+                            ]
+                        },
+                        {
+                            "day": 25,
+                            "title": "Fibonacci & Factorial Recursion",
+                            "definition": "Classic recursive growth problems.",
+                            "topics": [
+                                "Overlapping subproblems",
+                                "Recursive tree",
+                                "Complexity analysis"
+                            ]
+                        },
+                        {
+                            "day": 26,
+                            "title": "Divide & Conquer",
+                            "definition": "Break problem into smaller independent parts.",
+                            "topics": [
+                                "Splitting arrays",
+                                "Recursive merge intuition",
+                                "Complexity recurrence"
+                            ]
+                        },
+                        {
+                            "day": 27,
+                            "title": "Backtracking Basics",
+                            "definition": "Try → Undo → Try another path.",
+                            "topics": [
+                                "Rat in maze",
+                                "Decision trees",
+                                "State restoration"
+                            ]
+                        },
+                        {
+                            "day": 28,
+                            "title": "Subsets & Subsequences",
+                            "definition": "Generating all combinations recursively.",
+                            "topics": [
+                                "Pick/not-pick",
+                                "Power set",
+                                "Recursive branching"
+                            ]
+                        },
+                        {
+                            "day": 29,
+                            "title": "Permutations",
+                            "definition": "Generating all possible arrangements.",
+                            "topics": [
+                                "Swapping",
+                                "Visited arrays",
+                                "Backtracking states"
+                            ]
+                        },
+                        {
+                            "day": 30,
+                            "title": "N-Queens Problem",
+                            "definition": "Place queens safely using recursion.",
+                            "topics": [
+                                "Column checks",
+                                "Diagonal checks",
+                                "Optimization ideas"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "phase": 2,
+            "title": "Core Data Structures & Algorithms",
+            "range": "Day 31-75",
+            "weeks": [
+                {
+                    "week": 5,
+                    "title": "Sorting Algorithms",
+                    "days": [
+                        {
+                            "day": 31,
+                            "title": "Bubble & Selection Sort",
+                            "definition": "Simple comparison-based sorting algorithms.",
+                            "topics": [
+                                "Swapping",
+                                "Stability",
+                                "O(n²) complexity"
+                            ]
+                        },
+                        {
+                            "day": 32,
+                            "title": "Insertion Sort",
+                            "definition": "Build sorted portion incrementally.",
+                            "topics": [
+                                "Adaptive sorting",
+                                "Best-case optimization"
+                            ]
+                        },
+                        {
+                            "day": 33,
+                            "title": "Merge Sort",
+                            "definition": "Stable divide-and-conquer sorting algorithm.",
+                            "topics": [
+                                "Merge arrays",
+                                "Recursive sorting",
+                                "O(n log n)"
+                            ]
+                        },
+                        {
+                            "day": 34,
+                            "title": "Quick Sort",
+                            "definition": "Partition-based divide-and-conquer sorting.",
+                            "topics": [
+                                "Pivot selection",
+                                "Lomuto partition",
+                                "Hoare partition"
+                            ]
+                        },
+                        {
+                            "day": 35,
+                            "title": "Counting Sort",
+                            "definition": "Frequency-based non-comparison sorting.",
+                            "topics": [
+                                "Frequency arrays",
+                                "Range dependency"
+                            ]
+                        },
+                        {
+                            "day": 36,
+                            "title": "Radix Sort",
+                            "definition": "Digit-by-digit stable sorting.",
+                            "topics": [
+                                "Counting sort integration",
+                                "Place values"
+                            ]
+                        },
+                        {
+                            "day": 37,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 6,
+                    "title": "Binary Search Mastery",
+                    "days": [
+                        {
+                            "day": 38,
+                            "title": "Binary search Fundamentals",
+                            "definition": "Having search space repeatedly.",
+                            "topics": [
+                                "Iterative BS",
+                                "Recursive BS",
+                                "Mid Overflow Issue"
+                            ]
+                        },
+                        {
+                            "day": 39,
+                            "title": "Lower Bound and Upper Bound",
+                            "definition": "Finding insertion positions in sorted arrays.",
+                            "topics": [
+                                "First Occurence",
+                                "Last Occurence",
+                                "Bound Logic"
+                            ]
+                        },
+                        {
+                            "day": 40,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 41,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 42,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 43,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 44,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 7,
+                    "title": "Linked Lists",
+                    "days": [
+                        {
+                            "day": 45,
+                            "title": "Linked List Fundamentals",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 46,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 47,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 48,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 49,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 50,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 51,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 8,
+                    "title": "Stack, Queues and Heaps",
+                    "days": [
+                        {
+                            "day": 52,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 53,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 54,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 55,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 56,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 57,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 58,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 59,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 60,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 9,
+                    "title": "Trees and BST",
+                    "days": [
+                        {
+                            "day": 61,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 62,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 63,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 64,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 65,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 66,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 67,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 68,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 69,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 10,
+                    "title": "Graph Algorithms",
+                    "days": [
+                        {
+                            "day": 70,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 71,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 72,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 73,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 74,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 75,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "phase": 3,
+            "title": "Advanced DSA & Interview Mastery",
+            "range": "Day 76-150",
+            "weeks": [
+                {
+                    "week": 11,
+                    "title": "Advanced Graph Algorithms",
+                    "days": [
+                        {
+                            "day": 76,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 77,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 78,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 79,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 80,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 81,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 82,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 12,
+                    "title": "Greedy Algorithms",
+                    "days": [
+                        {
+                            "day": 83,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 84,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 85,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 86,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 87,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 88,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 89,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 13,
+                    "title": "Dynamic Programming Foundations",
+                    "days": [
+                        {
+                            "day": 90,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 91,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 92,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 93,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 95,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 96,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 97,
+                    "title": "Advanced Dynamic Programming",
+                    "days": [
+                        {
+                            "day": 37,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 98,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 99,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 100,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 101,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 102,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 103,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 15,
+                    "title": "Advanced String Algorithms",
+                    "days": [
+                        {
+                            "day": 104,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 105,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 106,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 107,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 108,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 109,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 16,
+                    "title": "Advanced Data Structures",
+                    "days": [
+                        {
+                            "day": 110,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 111,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 112,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 113,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 114,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 115,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 17,
+                    "title": "Advanced Problem Solving",
+                    "days": [
+                        {
+                            "day": 116,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 117,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 118,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 119,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 120,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 121,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 122,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 18,
+                    "title": "Competitive Programming Foundations",
+                    "days": [
+                        {
+                            "day": 123,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 124,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 125,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 126,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 127,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 128,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 129,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 19,
+                    "title": "Revisions and Mock Interviews",
+                    "days": [
+                        {
+                            "day": 130,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 131,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 132,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 133,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 134,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 135,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 136,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 20,
+                    "title": "Interview Simulation Phase",
+                    "days": [
+                        {
+                            "day": 137,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 138,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 139,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 140,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 141,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 142,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 143,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "week": 21,
+                    "title": "DSA Mastery Consolidation",
+                    "days": [
+                        {
+                            "day": 144,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 145,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 146,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 147,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 148,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 149,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        },
+                        {
+                            "day": 150,
+                            "title": "Quick Select",
+                            "definition": "Find kth smallest/largest efficiently.",
+                            "topics": [
+                                "Partition reuse",
+                                "Average O(n)"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

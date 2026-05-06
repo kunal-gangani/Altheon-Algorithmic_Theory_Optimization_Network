@@ -1,0 +1,1437 @@
+[
+  {
+    "day": 1,
+    "title": "Java Setup & First Program",
+    "definition": "Understanding how Java code compiles and runs using JVM.",
+    "topics": [
+      "Install JDK 21",
+      "javac vs java",
+      "print vs println",
+      "First arithmetic program",
+      "Understanding compilation"
+    ]
+  },
+  {
+    "day": 2,
+    "title": "Variables & Primitive Data Types",
+    "definition": "Variables store data in memory using fixed-size primitive types.",
+    "topics": [
+      "byte, short, int, long",
+      "float vs double",
+      "char and boolean",
+      "Integer overflow",
+      "Type casting"
+    ]
+  },
+  {
+    "day": 3,
+    "title": "Input Handling Using Scanner",
+    "definition": "Scanner reads input streams from keyboard.",
+    "topics": [
+      "next(), nextLine(), nextInt()",
+      "Scanner buffer issue",
+      "Reading multiple inputs",
+      "Basic calculator program"
+    ]
+  },
+  {
+    "day": 4,
+    "title": "Conditional Statements",
+    "definition": "Programs make decisions using boolean conditions.",
+    "topics": [
+      "if/else",
+      "nested conditions",
+      "switch statements",
+      "Leap year problem"
+    ]
+  },
+  {
+    "day": 5,
+    "title": "Loops & Iteration",
+    "definition": "Loops repeatedly execute code blocks.",
+    "topics": [
+      "for loop",
+      "while loop",
+      "do while",
+      "break and continue",
+      "Infinite loops"
+    ]
+  },
+  {
+    "day": 6,
+    "title": "Methods & Functional Thinking",
+    "definition": "Methods encapsulate reusable logic.",
+    "topics": [
+      "Parameters",
+      "Return values",
+      "Method overloading",
+      "Scope of variables"
+    ]
+  },
+  {
+    "day": 7,
+    "title": "Time & Space Complexity",
+    "definition": "Complexity measures algorithm efficiency.",
+    "topics": [
+      "Big O",
+      "Big Omega",
+      "Big Theta",
+      "Constant vs linear vs logarithmic growth",
+      "Space complexity",
+      "Week 2 — Arrays & Patterns"
+    ]
+  },
+  {
+    "day": 8,
+    "title": "Arrays Introduction",
+    "definition": "Arrays store contiguous fixed-size collections.",
+    "topics": [
+      "Array memory model",
+      "Indexing",
+      "Traversal",
+      "Input/output arrays"
+    ]
+  },
+  {
+    "day": 9,
+    "title": "Linear Search",
+    "definition": "Sequentially checking every element.",
+    "topics": [
+      "O(n) searching",
+      "Best/worst case",
+      "Frequency counting"
+    ]
+  },
+  {
+    "day": 10,
+    "title": "Two Pointer Technique",
+    "definition": "Using two indices to optimize traversal.",
+    "topics": [
+      "Reverse array",
+      "Pair sum",
+      "Sorted arrays",
+      "Opposite-direction pointers"
+    ]
+  },
+  {
+    "day": 11,
+    "title": "Subarrays & Subsequences",
+    "definition": "Subarrays are contiguous; subsequences are not.",
+    "topics": [
+      "Generate all subarrays",
+      "Prefix concepts",
+      "Counting subarrays"
+    ]
+  },
+  {
+    "day": 12,
+    "title": "Kadane’s Algorithm",
+    "definition": "Finds maximum sum contiguous subarray in O(n).",
+    "topics": [
+      "Running sum",
+      "Reset logic",
+      "Negative arrays"
+    ]
+  },
+  {
+    "day": 13,
+    "title": "Dutch National Flag Algorithm",
+    "definition": "3-way partitioning algorithm for sorting 0/1/2.",
+    "topics": [
+      "low/mid/high pointers",
+      "Partition logic",
+      "In-place sorting"
+    ]
+  },
+  {
+    "day": 14,
+    "title": "Prefix Sum & Difference Arrays",
+    "definition": "Precompute cumulative sums for fast range queries.",
+    "topics": [
+      "Prefix arrays",
+      "Range sum queries",
+      "Difference arrays",
+      "Range updates",
+      "Week 3 — Sliding Window & Strings"
+    ]
+  },
+  {
+    "day": 15,
+    "title": "Sliding Window (Fixed)",
+    "definition": "Maintaining a window of fixed size over data.",
+    "topics": [
+      "Max sum subarray of size K",
+      "Window optimization",
+      "O(n) traversal"
+    ]
+  },
+  {
+    "day": 16,
+    "title": "StringBuilder",
+    "definition": "Mutable string container for efficient modifications.",
+    "topics": [
+      "append()",
+      "reverse()",
+      "insert()",
+      "Mutable strings"
+    ]
+  },
+  {
+    "day": 17,
+    "title": "String Problems",
+    "definition": "String traversal and manipulation patterns.",
+    "topics": [
+      "Palindrome",
+      "Anagram",
+      "Character frequency",
+      "ASCII handling"
+    ]
+  },
+  {
+    "day": 18,
+    "title": "Sliding Window (Variable)",
+    "definition": "Dynamic window expansion and shrinking.",
+    "topics": [
+      "Longest substring without repetition",
+      "At most K distinct characters",
+      "Dynamic conditions"
+    ]
+  },
+  {
+    "day": 19,
+    "title": "String Matching Basics",
+    "definition": "Searching patterns inside strings.",
+    "topics": [
+      "Naive matching",
+      "startsWith()",
+      "contains()",
+      "Pattern logic"
+    ]
+  },
+  {
+    "day": 20,
+    "title": "String Rotation & Cyclic Problems",
+    "definition": "Detect cyclic shifts and rotations.",
+    "topics": [
+      "Rotation check",
+      "Concatenation trick",
+      "Cyclic traversal"
+    ]
+  },
+  {
+    "day": 21,
+    "title": "Bit Manipulation Basics",
+    "definition": "Binary-level operations for optimization.",
+    "topics": [
+      "XOR",
+      "AND/OR",
+      "Set bits",
+      "Power of two",
+      "Odd/even checks",
+      "Week 4 — Matrix + Recursion"
+    ]
+  },
+  {
+    "day": 22,
+    "title": "2D Arrays & Matrices",
+    "definition": "Grids stored as arrays of arrays.",
+    "topics": [
+      "Matrix traversal",
+      "Rows/columns",
+      "Input handling"
+    ]
+  },
+  {
+    "day": 23,
+    "title": "Matrix Transformations",
+    "definition": "Changing matrix orientation and layout.",
+    "topics": [
+      "Transpose",
+      "Rotate matrix",
+      "Spiral traversal"
+    ]
+  },
+  {
+    "day": 24,
+    "title": "Recursion Basics",
+    "definition": "Functions solving smaller versions of themselves.",
+    "topics": [
+      "Base case",
+      "Recursive stack",
+      "Recursive tracing"
+    ]
+  },
+  {
+    "day": 25,
+    "title": "Fibonacci & Factorial Recursion",
+    "definition": "Classic recursive growth problems.",
+    "topics": [
+      "Overlapping subproblems",
+      "Recursive tree",
+      "Complexity analysis"
+    ]
+  },
+  {
+    "day": 26,
+    "title": "Divide & Conquer",
+    "definition": "Break problem into smaller independent parts.",
+    "topics": [
+      "Splitting arrays",
+      "Recursive merge intuition",
+      "Complexity recurrence"
+    ]
+  },
+  {
+    "day": 27,
+    "title": "Backtracking Basics",
+    "definition": "Try → Undo → Try another path.",
+    "topics": [
+      "Rat in maze",
+      "Decision trees",
+      "State restoration"
+    ]
+  },
+  {
+    "day": 28,
+    "title": "Subsets & Subsequences",
+    "definition": "Generating all combinations recursively.",
+    "topics": [
+      "Pick/not-pick",
+      "Power set",
+      "Recursive branching"
+    ]
+  },
+  {
+    "day": 29,
+    "title": "Permutations",
+    "definition": "Generating all possible arrangements.",
+    "topics": [
+      "Swapping",
+      "Visited arrays",
+      "Backtracking states"
+    ]
+  },
+  {
+    "day": 30,
+    "title": "N-Queens Problem",
+    "definition": "Place queens safely using recursion.",
+    "topics": [
+      "Column checks",
+      "Diagonal checks",
+      "Optimization ideas"
+    ]
+  },
+  {
+    "day": 31,
+    "title": "Bubble & Selection Sort",
+    "definition": "Simple comparison-based sorting algorithms.",
+    "topics": [
+      "Swapping",
+      "Stability",
+      "O(n²) complexity"
+    ]
+  },
+  {
+    "day": 32,
+    "title": "Insertion Sort",
+    "definition": "Build sorted portion incrementally.",
+    "topics": [
+      "Adaptive sorting",
+      "Best-case optimization"
+    ]
+  },
+  {
+    "day": 33,
+    "title": "Merge Sort",
+    "definition": "Stable divide-and-conquer sorting algorithm.",
+    "topics": [
+      "Merge arrays",
+      "Recursive sorting",
+      "O(n log n)"
+    ]
+  },
+  {
+    "day": 34,
+    "title": "Quick Sort",
+    "definition": "Partition-based divide-and-conquer sorting.",
+    "topics": [
+      "Pivot selection",
+      "Lomuto partition",
+      "Hoare partition"
+    ]
+  },
+  {
+    "day": 35,
+    "title": "Counting Sort",
+    "definition": "Frequency-based non-comparison sorting.",
+    "topics": [
+      "Frequency arrays",
+      "Range dependency"
+    ]
+  },
+  {
+    "day": 36,
+    "title": "Radix Sort",
+    "definition": "Digit-by-digit stable sorting.",
+    "topics": [
+      "Counting sort integration",
+      "Place values"
+    ]
+  },
+  {
+    "day": 37,
+    "title": "Quick Select",
+    "definition": "Find kth smallest/largest efficiently.",
+    "topics": [
+      "Partition reuse",
+      "Average O(n)",
+      "Week 6 — Binary Search Mastery"
+    ]
+  },
+  {
+    "day": 38,
+    "title": "Binary Search Fundamentals",
+    "definition": "Halving search space repeatedly.",
+    "topics": [
+      "Iterative BS",
+      "Recursive BS",
+      "Mid overflow issue"
+    ]
+  },
+  {
+    "day": 39,
+    "title": "Lower Bound & Upper Bound",
+    "definition": "Finding insertion positions in sorted arrays.",
+    "topics": [
+      "First occurrence",
+      "Last occurrence",
+      "Bound logic"
+    ]
+  },
+  {
+    "day": 40,
+    "title": "Rotated Sorted Array Search",
+    "definition": "Binary search on partially ordered arrays.",
+    "topics": [
+      "Pivot logic",
+      "Sorted half detection"
+    ]
+  },
+  {
+    "day": 41,
+    "title": "Binary Search on Answers",
+    "definition": "Search over solution space.",
+    "topics": [
+      "Optimization problems",
+      "Feasibility checking"
+    ]
+  },
+  {
+    "day": 42,
+    "title": "Aggressive Cows Problem",
+    "definition": "Maximize minimum distance using BS.",
+    "topics": [
+      "Greedy placement",
+      "Search space logic"
+    ]
+  },
+  {
+    "day": 43,
+    "title": "Boyer-Moore Majority Vote",
+    "definition": "Find majority element in linear time.",
+    "topics": [
+      "Candidate elimination",
+      "Voting logic"
+    ]
+  },
+  {
+    "day": 44,
+    "title": "Advanced Bit Manipulation",
+    "definition": "Using bits for advanced optimization.",
+    "topics": [
+      "Single number problems",
+      "XOR properties",
+      "Bit masks",
+      "Week 7 — Linked Lists"
+    ]
+  },
+  {
+    "day": 45,
+    "title": "Linked List Fundamentals",
+    "definition": "Dynamic linear data structure using nodes.",
+    "topics": [
+      "Node class",
+      "next pointer",
+      "Traversal"
+    ]
+  },
+  {
+    "day": 46,
+    "title": "Linked List Operations",
+    "definition": "Insertion and deletion in linked structures.",
+    "topics": [
+      "Insert head/tail",
+      "Delete nodes",
+      "Traversal"
+    ]
+  },
+  {
+    "day": 47,
+    "title": "Reverse Linked List",
+    "definition": "Reverse pointers iteratively or recursively.",
+    "topics": [
+      "prev/current/next",
+      "Recursive reversal"
+    ]
+  },
+  {
+    "day": 48,
+    "title": "Fast & Slow Pointers",
+    "definition": "Two-speed pointer technique.",
+    "topics": [
+      "Middle node",
+      "Cycle intuition"
+    ]
+  },
+  {
+    "day": 49,
+    "title": "Floyd Cycle Detection",
+    "definition": "Detect cycle using tortoise-hare approach.",
+    "topics": [
+      "Meeting point",
+      "Loop detection"
+    ]
+  },
+  {
+    "day": 50,
+    "title": "Merge Linked Lists",
+    "definition": "Combine sorted lists efficiently.",
+    "topics": [
+      "Dummy nodes",
+      "Merge process"
+    ]
+  },
+  {
+    "day": 51,
+    "title": "Advanced Linked List Problems",
+    "definition": "Interview-level linked list manipulation.",
+    "topics": [
+      "Remove nth node",
+      "Intersection node",
+      "Palindrome linked list",
+      "Week 8 — Stack, Queue & Heap"
+    ]
+  },
+  {
+    "day": 52,
+    "title": "Stack Implementation",
+    "definition": "LIFO data structure.",
+    "topics": [
+      "Array stack",
+      "Push/pop",
+      "Stack overflow"
+    ]
+  },
+  {
+    "day": 53,
+    "title": "Monotonic Stack",
+    "definition": "Stack maintaining increasing/decreasing order.",
+    "topics": [
+      "Next greater element",
+      "Stock span",
+      "Histogram problems"
+    ]
+  },
+  {
+    "day": 54,
+    "title": "Valid Parentheses & Expression Parsing",
+    "definition": "Stack-based expression validation.",
+    "topics": [
+      "Balanced brackets",
+      "Expression evaluation"
+    ]
+  },
+  {
+    "day": 55,
+    "title": "Queue Implementation",
+    "definition": "FIFO data structure.",
+    "topics": [
+      "Queue arrays",
+      "Front/rear pointers"
+    ]
+  },
+  {
+    "day": 56,
+    "title": "Circular Queue & Deque",
+    "definition": "Efficient queue variations.",
+    "topics": [
+      "Modulo indexing",
+      "Double-ended queue"
+    ]
+  },
+  {
+    "day": 57,
+    "title": "Monotonic Queue",
+    "definition": "Optimized queue for sliding window problems.",
+    "topics": [
+      "Sliding window maximum",
+      "Decreasing deque"
+    ]
+  },
+  {
+    "day": 58,
+    "title": "Heaps & Priority Queue",
+    "definition": "Complete binary tree for prioritized retrieval.",
+    "topics": [
+      "Min heap",
+      "Max heap",
+      "Java PriorityQueue"
+    ]
+  },
+  {
+    "day": 59,
+    "title": "Heap Problems",
+    "definition": "Using heaps for optimization.",
+    "topics": [
+      "kth largest",
+      "Heap sort",
+      "Merge K lists"
+    ]
+  },
+  {
+    "day": 60,
+    "title": "HashMap & HashSet",
+    "definition": "Hashing-based key-value storage.",
+    "topics": [
+      "Collisions",
+      "Frequency maps",
+      "Lookup optimization",
+      "Week 9 — Trees & BST"
+    ]
+  },
+  {
+    "day": 61,
+    "title": "Binary Trees",
+    "definition": "Hierarchical recursive data structure.",
+    "topics": [
+      "Terminology",
+      "Tree structure"
+    ]
+  },
+  {
+    "day": 62,
+    "title": "DFS Traversals",
+    "definition": "Depth-first tree exploration.",
+    "topics": [
+      "Inorder",
+      "Preorder",
+      "Postorder"
+    ]
+  },
+  {
+    "day": 63,
+    "title": "BFS Traversal",
+    "definition": "Level-by-level traversal.",
+    "topics": [
+      "Level order traversal",
+      "Queue usage"
+    ]
+  },
+  {
+    "day": 64,
+    "title": "Tree Construction",
+    "definition": "Rebuilding trees from traversals.",
+    "topics": [
+      "Pre+Inorder",
+      "Post+Inorder"
+    ]
+  },
+  {
+    "day": 65,
+    "title": "Tree Views",
+    "definition": "Observing tree from different perspectives.",
+    "topics": [
+      "Left view",
+      "Right view",
+      "Top view"
+    ]
+  },
+  {
+    "day": 66,
+    "title": "Binary Search Trees",
+    "definition": "Ordered binary tree structure.",
+    "topics": [
+      "Insert/search",
+      "BST properties"
+    ]
+  },
+  {
+    "day": 67,
+    "title": "BST Advanced Operations",
+    "definition": "Manipulating BST efficiently.",
+    "topics": [
+      "Delete node",
+      "Successor/predecessor"
+    ]
+  },
+  {
+    "day": 68,
+    "title": "Lowest Common Ancestor",
+    "definition": "Find shared ancestor of nodes.",
+    "topics": [
+      "Binary tree LCA",
+      "BST LCA"
+    ]
+  },
+  {
+    "day": 69,
+    "title": "Heaps vs BST vs HashMap",
+    "definition": "Comparing data structure tradeoffs.",
+    "topics": [
+      "Retrieval complexity",
+      "Use cases",
+      "Week 10 — Graph Algorithms"
+    ]
+  },
+  {
+    "day": 70,
+    "title": "Graph Representation",
+    "definition": "Store connections between nodes.",
+    "topics": [
+      "Adjacency matrix",
+      "Adjacency list"
+    ]
+  },
+  {
+    "day": 71,
+    "title": "Breadth-First Search (BFS)",
+    "definition": "Explore graph layer by layer.",
+    "topics": [
+      "Queue traversal",
+      "Connected components"
+    ]
+  },
+  {
+    "day": 72,
+    "title": "Depth-First Search (DFS)",
+    "definition": "Explore deeply before backtracking.",
+    "topics": [
+      "Recursive DFS",
+      "Iterative DFS"
+    ]
+  },
+  {
+    "day": 73,
+    "title": "Cycle Detection in Graphs",
+    "definition": "Detect loops in directed/undirected graphs.",
+    "topics": [
+      "DFS cycle detection",
+      "BFS cycle detection"
+    ]
+  },
+  {
+    "day": 74,
+    "title": "Topological Sort",
+    "definition": "Linear ordering of DAG nodes.",
+    "topics": [
+      "Kahn’s Algorithm",
+      "DFS topo sort"
+    ]
+  },
+  {
+    "day": 75,
+    "title": "Union Find / DSU",
+    "definition": "Track connected components efficiently.",
+    "topics": [
+      "Path compression",
+      "Union by rank"
+    ]
+  },
+  {
+    "day": 76,
+    "title": "Kruskal’s Algorithm",
+    "definition": "",
+    "topics": [
+      "Minimum spanning tree",
+      "Edge sorting",
+      "DSU usage"
+    ]
+  },
+  {
+    "day": 77,
+    "title": "Prim’s Algorithm",
+    "definition": "",
+    "topics": [
+      "Greedy MST",
+      "Priority queues"
+    ]
+  },
+  {
+    "day": 78,
+    "title": "Dijkstra’s Algorithm",
+    "definition": "Shortest path for non-negative weighted graphs.",
+    "topics": [
+      "Relaxation",
+      "Min heap optimization"
+    ]
+  },
+  {
+    "day": 79,
+    "title": "Bellman-Ford Algorithm",
+    "definition": "Shortest path with negative weights.",
+    "topics": [
+      "Edge relaxation",
+      "Negative cycle detection"
+    ]
+  },
+  {
+    "day": 80,
+    "title": "Floyd-Warshall Algorithm",
+    "definition": "All-pairs shortest path algorithm.",
+    "topics": [
+      "Matrix DP",
+      "Intermediate nodes"
+    ]
+  },
+  {
+    "day": 81,
+    "title": "Multi-Source BFS",
+    "definition": "BFS starting from multiple nodes simultaneously.",
+    "topics": [
+      "Rotten oranges",
+      "Distance problems"
+    ]
+  },
+  {
+    "day": 82,
+    "title": "Shortest Path in Grid",
+    "definition": "Pathfinding in matrix environments.",
+    "topics": [
+      "Binary maze",
+      "Dijkstra on grids",
+      "Week 12 — Greedy Algorithms"
+    ]
+  },
+  {
+    "day": 83,
+    "title": "Greedy Fundamentals",
+    "definition": "Choose local optimum for global optimization.",
+    "topics": [
+      "Greedy strategy validation",
+      "Exchange argument intuition"
+    ]
+  },
+  {
+    "day": 84,
+    "title": "Activity Selection Problem",
+    "definition": "",
+    "topics": [
+      "Interval scheduling",
+      "Sorting by finish time"
+    ]
+  },
+  {
+    "day": 85,
+    "title": "Fractional Knapsack",
+    "definition": "",
+    "topics": [
+      "Value/weight ratio",
+      "Greedy selection"
+    ]
+  },
+  {
+    "day": 86,
+    "title": "Merge Intervals",
+    "definition": "",
+    "topics": [
+      "Interval merging",
+      "Sorting intervals"
+    ]
+  },
+  {
+    "day": 87,
+    "title": "Jump Game",
+    "definition": "",
+    "topics": [
+      "Reachability",
+      "Greedy traversal"
+    ]
+  },
+  {
+    "day": 88,
+    "title": "Gas Station Problem",
+    "definition": "",
+    "topics": [
+      "Circular traversal",
+      "Prefix deficit intuition"
+    ]
+  },
+  {
+    "day": 89,
+    "title": "Huffman Encoding",
+    "definition": "",
+    "topics": [
+      "Compression",
+      "Greedy trees",
+      "Week 13 — Dynamic Programming Foundations"
+    ]
+  },
+  {
+    "day": 90,
+    "title": "DP Introduction",
+    "definition": "",
+    "topics": [
+      "Memoization",
+      "Tabulation",
+      "State transition"
+    ]
+  },
+  {
+    "day": 91,
+    "title": "Fibonacci DP",
+    "definition": "",
+    "topics": [
+      "Bottom-up DP",
+      "Space optimization"
+    ]
+  },
+  {
+    "day": 92,
+    "title": "Climbing Stairs",
+    "definition": "",
+    "topics": [
+      "State transitions",
+      "Ways counting"
+    ]
+  },
+  {
+    "day": 93,
+    "title": "House Robber Problem",
+    "definition": "",
+    "topics": [
+      "Adjacent constraints",
+      "Linear DP"
+    ]
+  },
+  {
+    "day": 94,
+    "title": "0/1 Knapsack",
+    "definition": "",
+    "topics": [
+      "Pick/not pick",
+      "Capacity DP"
+    ]
+  },
+  {
+    "day": 95,
+    "title": "Unbounded Knapsack",
+    "definition": "",
+    "topics": [
+      "Infinite reuse",
+      "Variation understanding"
+    ]
+  },
+  {
+    "day": 96,
+    "title": "Coin Change",
+    "definition": "",
+    "topics": [
+      "Minimum coins",
+      "Number of combinations",
+      "Week 14 — Advanced Dynamic Programming"
+    ]
+  },
+  {
+    "day": 97,
+    "title": "Longest Increasing Subsequence",
+    "definition": "",
+    "topics": [
+      "Sequence DP",
+      "Binary search optimization"
+    ]
+  },
+  {
+    "day": 98,
+    "title": "Longest Common Subsequence",
+    "definition": "",
+    "topics": [
+      "2D DP",
+      "Matching states"
+    ]
+  },
+  {
+    "day": 99,
+    "title": "Edit Distance",
+    "definition": "",
+    "topics": [
+      "Insert/delete/replace",
+      "String transformation"
+    ]
+  },
+  {
+    "day": 100,
+    "title": "Partition DP",
+    "definition": "",
+    "topics": [
+      "Matrix chain multiplication",
+      "Optimal partitioning"
+    ]
+  },
+  {
+    "day": 101,
+    "title": "DP on Grids",
+    "definition": "",
+    "topics": [
+      "Unique paths",
+      "Minimum path sum"
+    ]
+  },
+  {
+    "day": 102,
+    "title": "DP on Subsequences",
+    "definition": "",
+    "topics": [
+      "Target sum",
+      "Subset partition"
+    ]
+  },
+  {
+    "day": 103,
+    "title": "DP on Stocks",
+    "definition": "",
+    "topics": [
+      "Buy/sell stocks",
+      "State machine DP",
+      "Week 15 — Advanced String Algorithms"
+    ]
+  },
+  {
+    "day": 104,
+    "title": "KMP Algorithm",
+    "definition": "Efficient pattern matching using LPS array.",
+    "topics": [
+      "Prefix suffix logic",
+      "Pattern jumps"
+    ]
+  },
+  {
+    "day": 105,
+    "title": "Rabin-Karp Algorithm",
+    "definition": "Rolling hash based pattern matching.",
+    "topics": [
+      "Hashing strings",
+      "Collision handling"
+    ]
+  },
+  {
+    "day": 106,
+    "title": "Z Algorithm",
+    "definition": "Linear-time string matching.",
+    "topics": [
+      "Z-array construction",
+      "Prefix matches"
+    ]
+  },
+  {
+    "day": 107,
+    "title": "Trie Data Structure",
+    "definition": "Prefix tree for string retrieval.",
+    "topics": [
+      "Insert/search",
+      "Prefix lookup"
+    ]
+  },
+  {
+    "day": 108,
+    "title": "Trie Applications",
+    "definition": "",
+    "topics": [
+      "Auto complete",
+      "Word dictionary",
+      "XOR trie basics"
+    ]
+  },
+  {
+    "day": 109,
+    "title": "String Hashing",
+    "definition": "",
+    "topics": [
+      "Polynomial rolling hash",
+      "Substring hashing",
+      "Week 16 — Advanced Data Structures"
+    ]
+  },
+  {
+    "day": 110,
+    "title": "Comparable vs Comparator",
+    "definition": "",
+    "topics": [
+      "Custom sorting",
+      "Lambda sorting"
+    ]
+  },
+  {
+    "day": 111,
+    "title": "Collections Framework",
+    "definition": "",
+    "topics": [
+      "ArrayList",
+      "LinkedList",
+      "TreeMap",
+      "HashMap"
+    ]
+  },
+  {
+    "day": 112,
+    "title": "Segment Tree Basics",
+    "definition": "Tree for efficient range queries.",
+    "topics": [
+      "Build/query/update"
+    ]
+  },
+  {
+    "day": 113,
+    "title": "Fenwick Tree (BIT)",
+    "definition": "Efficient prefix query structure.",
+    "topics": [
+      "Prefix updates",
+      "Binary indexed logic"
+    ]
+  },
+  {
+    "day": 114,
+    "title": "Sparse Table",
+    "definition": "Fast immutable range queries.",
+    "topics": [
+      "RMQ",
+      "Preprocessing"
+    ]
+  },
+  {
+    "day": 115,
+    "title": "Ordered Sets & Maps",
+    "definition": "",
+    "topics": [
+      "TreeSet",
+      "TreeMap",
+      "Ceiling/floor operations",
+      "Week 17 — Advanced Problem Solving"
+    ]
+  },
+  {
+    "day": 116,
+    "title": "Pattern Recognition in DSA",
+    "definition": "",
+    "topics": [
+      "Identify sliding window",
+      "Identify DP",
+      "Identify graphs"
+    ]
+  },
+  {
+    "day": 117,
+    "title": "Recursion → DP Conversion",
+    "definition": "",
+    "topics": [
+      "Memoization conversion",
+      "Bottom-up conversion"
+    ]
+  },
+  {
+    "day": 118,
+    "title": "Monotonic Stack Applications",
+    "definition": "",
+    "topics": [
+      "Largest rectangle",
+      "Rain water trapping"
+    ]
+  },
+  {
+    "day": 119,
+    "title": "Advanced Binary Search Problems",
+    "definition": "",
+    "topics": [
+      "Peak element",
+      "Search insert position"
+    ]
+  },
+  {
+    "day": 120,
+    "title": "Advanced Interval Problems",
+    "definition": "",
+    "topics": [
+      "Insert interval",
+      "Meeting rooms"
+    ]
+  },
+  {
+    "day": 121,
+    "title": "XOR Interview Problems",
+    "definition": "",
+    "topics": [
+      "Missing numbers",
+      "Unique elements"
+    ]
+  },
+  {
+    "day": 122,
+    "title": "Math Algorithms",
+    "definition": "",
+    "topics": [
+      "GCD",
+      "Sieve of Eratosthenes",
+      "Modular arithmetic",
+      "Week 18 — Competitive Programming Foundations"
+    ]
+  },
+  {
+    "day": 123,
+    "title": "Fast Input/Output in Java",
+    "definition": "",
+    "topics": [
+      "BufferedReader",
+      "FastScanner"
+    ]
+  },
+  {
+    "day": 124,
+    "title": "Recursion Optimization",
+    "definition": "",
+    "topics": [
+      "Tail recursion",
+      "Stack depth"
+    ]
+  },
+  {
+    "day": 125,
+    "title": "Greedy vs DP Recognition",
+    "definition": "",
+    "topics": [
+      "When greedy fails",
+      "Optimal substructure"
+    ]
+  },
+  {
+    "day": 126,
+    "title": "Advanced BFS/DFS Problems",
+    "definition": "",
+    "topics": [
+      "Islands",
+      "Flood fill"
+    ]
+  },
+  {
+    "day": 127,
+    "title": "Backtracking Interview Problems",
+    "definition": "",
+    "topics": [
+      "Sudoku solver",
+      "Word search"
+    ]
+  },
+  {
+    "day": 128,
+    "title": "Priority Queue Advanced Problems",
+    "definition": "",
+    "topics": [
+      "Median finder",
+      "Merge K sorted arrays"
+    ]
+  },
+  {
+    "day": 129,
+    "title": "Advanced Heap Problems",
+    "definition": "",
+    "topics": [
+      "Top K frequent elements",
+      "Heap optimizations",
+      "Week 19 — Revision & Mock Interviews"
+    ]
+  },
+  {
+    "day": 130,
+    "title": "Arrays Revision",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 131,
+    "title": "Strings Revision",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 132,
+    "title": "Linked Lists Revision",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 133,
+    "title": "Stack & Queue Revision",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 134,
+    "title": "Trees Revision",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 135,
+    "title": "Graphs Revision",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 136,
+    "title": "DP Revision",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 137,
+    "title": "Easy Mock Interview",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 138,
+    "title": "Medium Mock Interview",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 139,
+    "title": "Hard Mock Interview",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 140,
+    "title": "Timed Problem Solving",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 141,
+    "title": "Blind 75 Practice",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 142,
+    "title": "NeetCode Pattern Revision",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 143,
+    "title": "LeetCode Contest Simulation",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 144,
+    "title": "Most Important Graph Problems",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 145,
+    "title": "Most Important DP Problems",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 146,
+    "title": "Most Important Sliding Window Problems",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 147,
+    "title": "Most Important Tree Problems",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 148,
+    "title": "Most Important Binary Search Problems",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 149,
+    "title": "Mixed Hard Problems",
+    "definition": "",
+    "topics": []
+  },
+  {
+    "day": 150,
+    "title": "Final DSA Mastery Day",
+    "definition": "",
+    "topics": [
+      "Solve problems independently",
+      "Revise patterns",
+      "Build personal cheat sheet",
+      "Analyze weaknesses",
+      "Prepare interview strategy",
+      "Confidence building",
+      "✅ Major Algorithms Included",
+      "This roadmap now includes:",
+      "Kadane’s Algorithm",
+      "Dutch National Flag Algorithm",
+      "Two Pointers",
+      "Sliding Window",
+      "Prefix Sum",
+      "Difference Arrays",
+      "Merge Sort",
+      "Quick Sort",
+      "Counting Sort",
+      "Radix Sort",
+      "Quick Select",
+      "Binary Search",
+      "Binary Search on Answer",
+      "Boyer-Moore Majority Vote",
+      "BFS",
+      "DFS",
+      "Topological Sort",
+      "Floyd Cycle Detection",
+      "Dijkstra",
+      "Bellman-Ford",
+      "Floyd-Warshall",
+      "Kruskal",
+      "Prim",
+      "Union Find (DSU)",
+      "Backtracking",
+      "Bit Manipulation",
+      "Monotonic Stack",
+      "Monotonic Queue",
+      "Greedy Algorithms",
+      "Interval Problems",
+      "Dynamic Programming",
+      "LIS",
+      "LCS",
+      "Edit Distance",
+      "Coin Change",
+      "Matrix Chain Multiplication",
+      "KMP",
+      "Rabin-Karp",
+      "Z Algorithm",
+      "Trie",
+      "Segment Tree",
+      "Fenwick Tree",
+      "Sparse Table",
+      "Heap Problems",
+      "Graph Cycle Detection",
+      "Multi-Source BFS",
+      "Grid Shortest Path",
+      "Collections Framework",
+      "Comparator/Comparable",
+      "Competitive Programming Foundations",
+      "This is now a near-complete interview-grade DSA roadmap for 2026."
+    ]
+  }
+]

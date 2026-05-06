@@ -1,0 +1,426 @@
+{
+    "roadmapTitle": "Ultimate 150-Day Java + DSA Mastery Roadmap (2026 Edition)",
+    "goal": "Master Java, Data Structures, Algorithms, Interview Patterns, and Problem Solving deeply enough for internships, coding rounds, competitive programming foundations, and advanced technical interviews.",
+    "structure": {
+        "totalDays": 150,
+        "phases": 3,
+        "description": "Every day introduces a focused topic with definitions, algorithm intuition, and practical implementation goals. Covers beginner → advanced interview-level DSA"
+    },
+    "phases": [
+        {
+            "id": 1,
+            "name": "PHASE 1 — Java Foundations & Core Problem Solving",
+            "dayRange": "Day 1–30",
+            "weeks": [
+                {
+                    "weekNumber": 1,
+                    "weekTitle": "Java Basics",
+                    "days": [
+                        {
+                            "dayNumber": 1,
+                            "title": "Java Setup & First Program",
+                            "definition": "Understanding how Java code compiles and runs using JVM.",
+                            "topics": [
+                                "Install JDK 21",
+                                "javac vs java",
+                                "print vs println",
+                                "First arithmetic program",
+                                "Understanding compilation"
+                            ]
+                        },
+                        {
+                            "dayNumber": 2,
+                            "title": "Variables & Primitive Data Types",
+                            "definition": "Variables store data in memory using fixed-size primitive types.",
+                            "topics": [
+                                "byte, short, int, long",
+                                "float vs double",
+                                "char and boolean",
+                                "Integer overflow",
+                                "Type casting"
+                            ]
+                        },
+                        {
+                            "dayNumber": 3,
+                            "title": "Input Handling Using Scanner",
+                            "definition": "Scanner reads input streams from keyboard.",
+                            "topics": [
+                                "next(), nextLine(), nextInt()",
+                                "Scanner buffer issue",
+                                "Reading multiple inputs",
+                                "Basic calculator program"
+                            ]
+                        },
+                        {
+                            "dayNumber": 4,
+                            "title": "Conditional Statements",
+                            "definition": "Programs make decisions using boolean conditions.",
+                            "topics": [
+                                "if/else",
+                                "nested conditions",
+                                "switch statements",
+                                "Leap year problem"
+                            ]
+                        },
+                        {
+                            "dayNumber": 5,
+                            "title": "Loops & Iteration",
+                            "definition": "Loops repeatedly execute code blocks.",
+                            "topics": [
+                                "for loop",
+                                "while loop",
+                                "do while",
+                                "break and continue",
+                                "Infinite loops"
+                            ]
+                        },
+                        {
+                            "dayNumber": 6,
+                            "title": "Methods & Functional Thinking",
+                            "definition": "Methods encapsulate reusable logic.",
+                            "topics": [
+                                "Parameters",
+                                "Return values",
+                                "Method overloading",
+                                "Scope of variables"
+                            ]
+                        },
+                        {
+                            "dayNumber": 7,
+                            "title": "Time & Space Complexity",
+                            "definition": "Complexity measures algorithm efficiency.",
+                            "topics": [
+                                "Big O",
+                                "Big Omega",
+                                "Big Theta",
+                                "Constant vs linear vs logarithmic growth",
+                                "Space complexity"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "weekNumber": 2,
+                    "weekTitle": "Arrays & Patterns",
+                    "days": [
+                        {
+                            "dayNumber": 8,
+                            "title": "Arrays Introduction",
+                            "definition": "Arrays store contiguous fixed-size collections.",
+                            "topics": [
+                                "Array memory model",
+                                "Indexing",
+                                "Traversal",
+                                "Input/output arrays"
+                            ]
+                        },
+                        {
+                            "dayNumber": 9,
+                            "title": "Linear Search",
+                            "definition": "Sequentially checking every element.",
+                            "topics": [
+                                "O(n) searching",
+                                "Best/worst case",
+                                "Frequency counting"
+                            ]
+                        },
+                        {
+                            "dayNumber": 10,
+                            "title": "Two Pointer Technique",
+                            "definition": "Using two indices to optimize traversal.",
+                            "topics": [
+                                "Reverse array",
+                                "Pair sum",
+                                "Sorted arrays",
+                                "Opposite-direction pointers"
+                            ]
+                        },
+                        {
+                            "dayNumber": 11,
+                            "title": "Subarrays & Subsequences",
+                            "definition": "Subarrays are contiguous; subsequences are not.",
+                            "topics": [
+                                "Generate all subarrays",
+                                "Prefix concepts",
+                                "Counting subarrays"
+                            ]
+                        },
+                        {
+                            "dayNumber": 12,
+                            "title": "Kadane's Algorithm",
+                            "definition": "Finds maximum sum contiguous subarray in O(n).",
+                            "topics": [
+                                "Running sum",
+                                "Reset logic",
+                                "Negative arrays"
+                            ]
+                        },
+                        {
+                            "dayNumber": 13,
+                            "title": "Dutch National Flag Algorithm",
+                            "definition": "3-way partitioning algorithm for sorting 0/1/2.",
+                            "topics": [
+                                "low/mid/high pointers",
+                                "Partition logic",
+                                "In-place sorting"
+                            ]
+                        },
+                        {
+                            "dayNumber": 14,
+                            "title": "Prefix Sum & Difference Arrays",
+                            "definition": "Precompute cumulative sums for fast range queries.",
+                            "topics": [
+                                "Prefix arrays",
+                                "Range sum queries",
+                                "Difference arrays",
+                                "Range updates"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "weekNumber": 3,
+                    "weekTitle": "Sliding Window & Strings",
+                    "days": [
+                        {
+                            "dayNumber": 15,
+                            "title": "Sliding Window (Fixed)",
+                            "definition": "Maintaining a window of fixed size over data.",
+                            "topics": [
+                                "Max sum subarray of size K",
+                                "Window optimization",
+                                "O(n) traversal"
+                            ]
+                        },
+                        {
+                            "dayNumber": 16,
+                            "title": "StringBuilder",
+                            "definition": "Mutable string container for efficient modifications.",
+                            "topics": [
+                                "append()",
+                                "reverse()",
+                                "insert()",
+                                "Mutable strings"
+                            ]
+                        },
+                        {
+                            "dayNumber": 17,
+                            "title": "String Problems",
+                            "definition": "String traversal and manipulation patterns.",
+                            "topics": [
+                                "Palindrome",
+                                "Anagram",
+                                "Character frequency",
+                                "ASCII handling"
+                            ]
+                        },
+                        {
+                            "dayNumber": 18,
+                            "title": "Sliding Window (Variable)",
+                            "definition": "Dynamic window expansion and shrinking.",
+                            "topics": [
+                                "Longest substring without repetition",
+                                "At most K distinct characters",
+                                "Dynamic conditions"
+                            ]
+                        },
+                        {
+                            "dayNumber": 19,
+                            "title": "String Matching Basics",
+                            "definition": "Searching patterns inside strings.",
+                            "topics": [
+                                "Naive matching",
+                                "startsWith()",
+                                "contains()",
+                                "Pattern logic"
+                            ]
+                        },
+                        {
+                            "dayNumber": 20,
+                            "title": "String Rotation & Cyclic Problems",
+                            "definition": "Detect cyclic shifts and rotations.",
+                            "topics": [
+                                "Rotation check",
+                                "Concatenation trick",
+                                "Cyclic traversal"
+                            ]
+                        },
+                        {
+                            "dayNumber": 21,
+                            "title": "Bit Manipulation Basics",
+                            "definition": "Binary-level operations for optimization.",
+                            "topics": [
+                                "XOR",
+                                "AND/OR",
+                                "Set bits",
+                                "Power of two",
+                                "Odd/even checks"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "weekNumber": 4,
+                    "weekTitle": "Matrix + Recursion",
+                    "days": [
+                        {
+                            "dayNumber": 22,
+                            "title": "2D Arrays & Matrices",
+                            "definition": "Grids stored as arrays of arrays.",
+                            "topics": [
+                                "Matrix traversal",
+                                "Rows/columns",
+                                "Input handling"
+                            ]
+                        },
+                        {
+                            "dayNumber": 23,
+                            "title": "Matrix Transformations",
+                            "definition": "Changing matrix orientation and layout.",
+                            "topics": [
+                                "Transpose",
+                                "Rotate matrix",
+                                "Spiral traversal"
+                            ]
+                        },
+                        {
+                            "dayNumber": 24,
+                            "title": "Recursion Basics",
+                            "definition": "Functions solving smaller versions of themselves.",
+                            "topics": [
+                                "Base case",
+                                "Recursive stack",
+                                "Recursive tracing"
+                            ]
+                        },
+                        {
+                            "dayNumber": 25,
+                            "title": "Fibonacci & Factorial Recursion",
+                            "definition": "Classic recursive growth problems.",
+                            "topics": [
+                                "Overlapping subproblems",
+                                "Recursive tree",
+                                "Complexity analysis"
+                            ]
+                        },
+                        {
+                            "dayNumber": 26,
+                            "title": "Divide & Conquer",
+                            "definition": "Break problem into smaller independent parts.",
+                            "topics": [
+                                "Splitting arrays",
+                                "Recursive merge intuition",
+                                "Complexity recurrence"
+                            ]
+                        },
+                        {
+                            "dayNumber": 27,
+                            "title": "Backtracking Basics",
+                            "definition": "Try → Undo → Try another path.",
+                            "topics": [
+                                "Rat in maze",
+                                "Decision trees",
+                                "State restoration"
+                            ]
+                        },
+                        {
+                            "dayNumber": 28,
+                            "title": "Subsets & Subsequences",
+                            "definition": "Generating all combinations recursively.",
+                            "topics": [
+                                "Pick/not-pick",
+                                "Power set",
+                                "Recursive branching"
+                            ]
+                        },
+                        {
+                            "dayNumber": 29,
+                            "title": "Permutations",
+                            "definition": "Generating all possible arrangements.",
+                            "topics": [
+                                "Swapping",
+                                "Visited arrays",
+                                "Backtracking states"
+                            ]
+                        },
+                        {
+                            "dayNumber": 30,
+                            "title": "N-Queens Problem",
+                            "definition": "Place queens safely using recursion.",
+                            "topics": [
+                                "Column checks",
+                                "Diagonal checks",
+                                "Optimization ideas"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "PHASE 2 — Core Data Structures & Algorithms",
+            "dayRange": "Day 31–75",
+            "summary": "Core data structures and their algorithms - Sorting, Binary Search, Linked Lists, Stacks/Queues, Trees, and Graphs"
+        },
+        {
+            "id": 3,
+            "name": "PHASE 3 — Advanced DSA & Interview Mastery",
+            "dayRange": "Day 76–150",
+            "summary": "Advanced algorithms, string processing, data structures, problem-solving patterns, and interview preparation"
+        }
+    ],
+    "majorAlgorithmsIncluded": [
+        "Kadane's Algorithm",
+        "Dutch National Flag Algorithm",
+        "Two Pointers",
+        "Sliding Window",
+        "Prefix Sum",
+        "Difference Arrays",
+        "Merge Sort",
+        "Quick Sort",
+        "Counting Sort",
+        "Radix Sort",
+        "Quick Select",
+        "Binary Search",
+        "Binary Search on Answer",
+        "Boyer-Moore Majority Vote",
+        "BFS",
+        "DFS",
+        "Topological Sort",
+        "Floyd Cycle Detection",
+        "Dijkstra",
+        "Bellman-Ford",
+        "Floyd-Warshall",
+        "Kruskal",
+        "Prim",
+        "Union Find (DSU)",
+        "Backtracking",
+        "Bit Manipulation",
+        "Monotonic Stack",
+        "Monotonic Queue",
+        "Greedy Algorithms",
+        "Interval Problems",
+        "Dynamic Programming",
+        "LIS",
+        "LCS",
+        "Edit Distance",
+        "Coin Change",
+        "Matrix Chain Multiplication",
+        "KMP",
+        "Rabin-Karp",
+        "Z Algorithm",
+        "Trie",
+        "Segment Tree",
+        "Fenwick Tree",
+        "Sparse Table",
+        "Heap Problems",
+        "Graph Cycle Detection",
+        "Multi-Source BFS",
+        "Grid Shortest Path",
+        "Collections Framework",
+        "Comparator/Comparable",
+        "Competitive Programming Foundations"
+    ],
+    "summary": "A near-complete interview-grade DSA roadmap for 2026 with 150 unique learning days covering beginner to advanced levels."
+}

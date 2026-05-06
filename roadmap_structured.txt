@@ -1,0 +1,1135 @@
+[DAY 1]
+Title: Java Setup & First Program
+Definition: Understanding how Java code compiles and runs using JVM.
+Topics:
+  - Install JDK 21
+  - javac vs java
+  - print vs println
+  - First arithmetic program
+  - Understanding compilation
+
+[DAY 2]
+Title: Variables & Primitive Data Types
+Definition: Variables store data in memory using fixed-size primitive types.
+Topics:
+  - byte, short, int, long
+  - float vs double
+  - char and boolean
+  - Integer overflow
+  - Type casting
+
+[DAY 3]
+Title: Input Handling Using Scanner
+Definition: Scanner reads input streams from keyboard.
+Topics:
+  - next(), nextLine(), nextInt()
+  - Scanner buffer issue
+  - Reading multiple inputs
+  - Basic calculator program
+
+[DAY 4]
+Title: Conditional Statements
+Definition: Programs make decisions using boolean conditions.
+Topics:
+  - if/else
+  - nested conditions
+  - switch statements
+  - Leap year problem
+
+[DAY 5]
+Title: Loops & Iteration
+Definition: Loops repeatedly execute code blocks.
+Topics:
+  - for loop
+  - while loop
+  - do while
+  - break and continue
+  - Infinite loops
+
+[DAY 6]
+Title: Methods & Functional Thinking
+Definition: Methods encapsulate reusable logic.
+Topics:
+  - Parameters
+  - Return values
+  - Method overloading
+  - Scope of variables
+
+[DAY 7]
+Title: Time & Space Complexity
+Definition: Complexity measures algorithm efficiency.
+Topics:
+  - Big O
+  - Big Omega
+  - Big Theta
+  - Constant vs linear vs logarithmic growth
+  - Space complexity
+  - Week 2 — Arrays & Patterns
+
+[DAY 8]
+Title: Arrays Introduction
+Definition: Arrays store contiguous fixed-size collections.
+Topics:
+  - Array memory model
+  - Indexing
+  - Traversal
+  - Input/output arrays
+
+[DAY 9]
+Title: Linear Search
+Definition: Sequentially checking every element.
+Topics:
+  - O(n) searching
+  - Best/worst case
+  - Frequency counting
+
+[DAY 10]
+Title: Two Pointer Technique
+Definition: Using two indices to optimize traversal.
+Topics:
+  - Reverse array
+  - Pair sum
+  - Sorted arrays
+  - Opposite-direction pointers
+
+[DAY 11]
+Title: Subarrays & Subsequences
+Definition: Subarrays are contiguous; subsequences are not.
+Topics:
+  - Generate all subarrays
+  - Prefix concepts
+  - Counting subarrays
+
+[DAY 12]
+Title: Kadane’s Algorithm
+Definition: Finds maximum sum contiguous subarray in O(n).
+Topics:
+  - Running sum
+  - Reset logic
+  - Negative arrays
+
+[DAY 13]
+Title: Dutch National Flag Algorithm
+Definition: 3-way partitioning algorithm for sorting 0/1/2.
+Topics:
+  - low/mid/high pointers
+  - Partition logic
+  - In-place sorting
+
+[DAY 14]
+Title: Prefix Sum & Difference Arrays
+Definition: Precompute cumulative sums for fast range queries.
+Topics:
+  - Prefix arrays
+  - Range sum queries
+  - Difference arrays
+  - Range updates
+  - Week 3 — Sliding Window & Strings
+
+[DAY 15]
+Title: Sliding Window (Fixed)
+Definition: Maintaining a window of fixed size over data.
+Topics:
+  - Max sum subarray of size K
+  - Window optimization
+  - O(n) traversal
+
+[DAY 16]
+Title: StringBuilder
+Definition: Mutable string container for efficient modifications.
+Topics:
+  - append()
+  - reverse()
+  - insert()
+  - Mutable strings
+
+[DAY 17]
+Title: String Problems
+Definition: String traversal and manipulation patterns.
+Topics:
+  - Palindrome
+  - Anagram
+  - Character frequency
+  - ASCII handling
+
+[DAY 18]
+Title: Sliding Window (Variable)
+Definition: Dynamic window expansion and shrinking.
+Topics:
+  - Longest substring without repetition
+  - At most K distinct characters
+  - Dynamic conditions
+
+[DAY 19]
+Title: String Matching Basics
+Definition: Searching patterns inside strings.
+Topics:
+  - Naive matching
+  - startsWith()
+  - contains()
+  - Pattern logic
+
+[DAY 20]
+Title: String Rotation & Cyclic Problems
+Definition: Detect cyclic shifts and rotations.
+Topics:
+  - Rotation check
+  - Concatenation trick
+  - Cyclic traversal
+
+[DAY 21]
+Title: Bit Manipulation Basics
+Definition: Binary-level operations for optimization.
+Topics:
+  - XOR
+  - AND/OR
+  - Set bits
+  - Power of two
+  - Odd/even checks
+  - Week 4 — Matrix + Recursion
+
+[DAY 22]
+Title: 2D Arrays & Matrices
+Definition: Grids stored as arrays of arrays.
+Topics:
+  - Matrix traversal
+  - Rows/columns
+  - Input handling
+
+[DAY 23]
+Title: Matrix Transformations
+Definition: Changing matrix orientation and layout.
+Topics:
+  - Transpose
+  - Rotate matrix
+  - Spiral traversal
+
+[DAY 24]
+Title: Recursion Basics
+Definition: Functions solving smaller versions of themselves.
+Topics:
+  - Base case
+  - Recursive stack
+  - Recursive tracing
+
+[DAY 25]
+Title: Fibonacci & Factorial Recursion
+Definition: Classic recursive growth problems.
+Topics:
+  - Overlapping subproblems
+  - Recursive tree
+  - Complexity analysis
+
+[DAY 26]
+Title: Divide & Conquer
+Definition: Break problem into smaller independent parts.
+Topics:
+  - Splitting arrays
+  - Recursive merge intuition
+  - Complexity recurrence
+
+[DAY 27]
+Title: Backtracking Basics
+Definition: Try → Undo → Try another path.
+Topics:
+  - Rat in maze
+  - Decision trees
+  - State restoration
+
+[DAY 28]
+Title: Subsets & Subsequences
+Definition: Generating all combinations recursively.
+Topics:
+  - Pick/not-pick
+  - Power set
+  - Recursive branching
+
+[DAY 29]
+Title: Permutations
+Definition: Generating all possible arrangements.
+Topics:
+  - Swapping
+  - Visited arrays
+  - Backtracking states
+
+[DAY 30]
+Title: N-Queens Problem
+Definition: Place queens safely using recursion.
+Topics:
+  - Column checks
+  - Diagonal checks
+  - Optimization ideas
+
+[DAY 31]
+Title: Bubble & Selection Sort
+Definition: Simple comparison-based sorting algorithms.
+Topics:
+  - Swapping
+  - Stability
+  - O(n²) complexity
+
+[DAY 32]
+Title: Insertion Sort
+Definition: Build sorted portion incrementally.
+Topics:
+  - Adaptive sorting
+  - Best-case optimization
+
+[DAY 33]
+Title: Merge Sort
+Definition: Stable divide-and-conquer sorting algorithm.
+Topics:
+  - Merge arrays
+  - Recursive sorting
+  - O(n log n)
+
+[DAY 34]
+Title: Quick Sort
+Definition: Partition-based divide-and-conquer sorting.
+Topics:
+  - Pivot selection
+  - Lomuto partition
+  - Hoare partition
+
+[DAY 35]
+Title: Counting Sort
+Definition: Frequency-based non-comparison sorting.
+Topics:
+  - Frequency arrays
+  - Range dependency
+
+[DAY 36]
+Title: Radix Sort
+Definition: Digit-by-digit stable sorting.
+Topics:
+  - Counting sort integration
+  - Place values
+
+[DAY 37]
+Title: Quick Select
+Definition: Find kth smallest/largest efficiently.
+Topics:
+  - Partition reuse
+  - Average O(n)
+  - Week 6 — Binary Search Mastery
+
+[DAY 38]
+Title: Binary Search Fundamentals
+Definition: Halving search space repeatedly.
+Topics:
+  - Iterative BS
+  - Recursive BS
+  - Mid overflow issue
+
+[DAY 39]
+Title: Lower Bound & Upper Bound
+Definition: Finding insertion positions in sorted arrays.
+Topics:
+  - First occurrence
+  - Last occurrence
+  - Bound logic
+
+[DAY 40]
+Title: Rotated Sorted Array Search
+Definition: Binary search on partially ordered arrays.
+Topics:
+  - Pivot logic
+  - Sorted half detection
+
+[DAY 41]
+Title: Binary Search on Answers
+Definition: Search over solution space.
+Topics:
+  - Optimization problems
+  - Feasibility checking
+
+[DAY 42]
+Title: Aggressive Cows Problem
+Definition: Maximize minimum distance using BS.
+Topics:
+  - Greedy placement
+  - Search space logic
+
+[DAY 43]
+Title: Boyer-Moore Majority Vote
+Definition: Find majority element in linear time.
+Topics:
+  - Candidate elimination
+  - Voting logic
+
+[DAY 44]
+Title: Advanced Bit Manipulation
+Definition: Using bits for advanced optimization.
+Topics:
+  - Single number problems
+  - XOR properties
+  - Bit masks
+  - Week 7 — Linked Lists
+
+[DAY 45]
+Title: Linked List Fundamentals
+Definition: Dynamic linear data structure using nodes.
+Topics:
+  - Node class
+  - next pointer
+  - Traversal
+
+[DAY 46]
+Title: Linked List Operations
+Definition: Insertion and deletion in linked structures.
+Topics:
+  - Insert head/tail
+  - Delete nodes
+  - Traversal
+
+[DAY 47]
+Title: Reverse Linked List
+Definition: Reverse pointers iteratively or recursively.
+Topics:
+  - prev/current/next
+  - Recursive reversal
+
+[DAY 48]
+Title: Fast & Slow Pointers
+Definition: Two-speed pointer technique.
+Topics:
+  - Middle node
+  - Cycle intuition
+
+[DAY 49]
+Title: Floyd Cycle Detection
+Definition: Detect cycle using tortoise-hare approach.
+Topics:
+  - Meeting point
+  - Loop detection
+
+[DAY 50]
+Title: Merge Linked Lists
+Definition: Combine sorted lists efficiently.
+Topics:
+  - Dummy nodes
+  - Merge process
+
+[DAY 51]
+Title: Advanced Linked List Problems
+Definition: Interview-level linked list manipulation.
+Topics:
+  - Remove nth node
+  - Intersection node
+  - Palindrome linked list
+  - Week 8 — Stack, Queue & Heap
+
+[DAY 52]
+Title: Stack Implementation
+Definition: LIFO data structure.
+Topics:
+  - Array stack
+  - Push/pop
+  - Stack overflow
+
+[DAY 53]
+Title: Monotonic Stack
+Definition: Stack maintaining increasing/decreasing order.
+Topics:
+  - Next greater element
+  - Stock span
+  - Histogram problems
+
+[DAY 54]
+Title: Valid Parentheses & Expression Parsing
+Definition: Stack-based expression validation.
+Topics:
+  - Balanced brackets
+  - Expression evaluation
+
+[DAY 55]
+Title: Queue Implementation
+Definition: FIFO data structure.
+Topics:
+  - Queue arrays
+  - Front/rear pointers
+
+[DAY 56]
+Title: Circular Queue & Deque
+Definition: Efficient queue variations.
+Topics:
+  - Modulo indexing
+  - Double-ended queue
+
+[DAY 57]
+Title: Monotonic Queue
+Definition: Optimized queue for sliding window problems.
+Topics:
+  - Sliding window maximum
+  - Decreasing deque
+
+[DAY 58]
+Title: Heaps & Priority Queue
+Definition: Complete binary tree for prioritized retrieval.
+Topics:
+  - Min heap
+  - Max heap
+  - Java PriorityQueue
+
+[DAY 59]
+Title: Heap Problems
+Definition: Using heaps for optimization.
+Topics:
+  - kth largest
+  - Heap sort
+  - Merge K lists
+
+[DAY 60]
+Title: HashMap & HashSet
+Definition: Hashing-based key-value storage.
+Topics:
+  - Collisions
+  - Frequency maps
+  - Lookup optimization
+  - Week 9 — Trees & BST
+
+[DAY 61]
+Title: Binary Trees
+Definition: Hierarchical recursive data structure.
+Topics:
+  - Terminology
+  - Tree structure
+
+[DAY 62]
+Title: DFS Traversals
+Definition: Depth-first tree exploration.
+Topics:
+  - Inorder
+  - Preorder
+  - Postorder
+
+[DAY 63]
+Title: BFS Traversal
+Definition: Level-by-level traversal.
+Topics:
+  - Level order traversal
+  - Queue usage
+
+[DAY 64]
+Title: Tree Construction
+Definition: Rebuilding trees from traversals.
+Topics:
+  - Pre+Inorder
+  - Post+Inorder
+
+[DAY 65]
+Title: Tree Views
+Definition: Observing tree from different perspectives.
+Topics:
+  - Left view
+  - Right view
+  - Top view
+
+[DAY 66]
+Title: Binary Search Trees
+Definition: Ordered binary tree structure.
+Topics:
+  - Insert/search
+  - BST properties
+
+[DAY 67]
+Title: BST Advanced Operations
+Definition: Manipulating BST efficiently.
+Topics:
+  - Delete node
+  - Successor/predecessor
+
+[DAY 68]
+Title: Lowest Common Ancestor
+Definition: Find shared ancestor of nodes.
+Topics:
+  - Binary tree LCA
+  - BST LCA
+
+[DAY 69]
+Title: Heaps vs BST vs HashMap
+Definition: Comparing data structure tradeoffs.
+Topics:
+  - Retrieval complexity
+  - Use cases
+  - Week 10 — Graph Algorithms
+
+[DAY 70]
+Title: Graph Representation
+Definition: Store connections between nodes.
+Topics:
+  - Adjacency matrix
+  - Adjacency list
+
+[DAY 71]
+Title: Breadth-First Search (BFS)
+Definition: Explore graph layer by layer.
+Topics:
+  - Queue traversal
+  - Connected components
+
+[DAY 72]
+Title: Depth-First Search (DFS)
+Definition: Explore deeply before backtracking.
+Topics:
+  - Recursive DFS
+  - Iterative DFS
+
+[DAY 73]
+Title: Cycle Detection in Graphs
+Definition: Detect loops in directed/undirected graphs.
+Topics:
+  - DFS cycle detection
+  - BFS cycle detection
+
+[DAY 74]
+Title: Topological Sort
+Definition: Linear ordering of DAG nodes.
+Topics:
+  - Kahn’s Algorithm
+  - DFS topo sort
+
+[DAY 75]
+Title: Union Find / DSU
+Definition: Track connected components efficiently.
+Topics:
+  - Path compression
+  - Union by rank
+
+[DAY 76]
+Title: Kruskal’s Algorithm
+Definition: 
+Topics:
+  - Minimum spanning tree
+  - Edge sorting
+  - DSU usage
+
+[DAY 77]
+Title: Prim’s Algorithm
+Definition: 
+Topics:
+  - Greedy MST
+  - Priority queues
+
+[DAY 78]
+Title: Dijkstra’s Algorithm
+Definition: Shortest path for non-negative weighted graphs.
+Topics:
+  - Relaxation
+  - Min heap optimization
+
+[DAY 79]
+Title: Bellman-Ford Algorithm
+Definition: Shortest path with negative weights.
+Topics:
+  - Edge relaxation
+  - Negative cycle detection
+
+[DAY 80]
+Title: Floyd-Warshall Algorithm
+Definition: All-pairs shortest path algorithm.
+Topics:
+  - Matrix DP
+  - Intermediate nodes
+
+[DAY 81]
+Title: Multi-Source BFS
+Definition: BFS starting from multiple nodes simultaneously.
+Topics:
+  - Rotten oranges
+  - Distance problems
+
+[DAY 82]
+Title: Shortest Path in Grid
+Definition: Pathfinding in matrix environments.
+Topics:
+  - Binary maze
+  - Dijkstra on grids
+  - Week 12 — Greedy Algorithms
+
+[DAY 83]
+Title: Greedy Fundamentals
+Definition: Choose local optimum for global optimization.
+Topics:
+  - Greedy strategy validation
+  - Exchange argument intuition
+
+[DAY 84]
+Title: Activity Selection Problem
+Definition: 
+Topics:
+  - Interval scheduling
+  - Sorting by finish time
+
+[DAY 85]
+Title: Fractional Knapsack
+Definition: 
+Topics:
+  - Value/weight ratio
+  - Greedy selection
+
+[DAY 86]
+Title: Merge Intervals
+Definition: 
+Topics:
+  - Interval merging
+  - Sorting intervals
+
+[DAY 87]
+Title: Jump Game
+Definition: 
+Topics:
+  - Reachability
+  - Greedy traversal
+
+[DAY 88]
+Title: Gas Station Problem
+Definition: 
+Topics:
+  - Circular traversal
+  - Prefix deficit intuition
+
+[DAY 89]
+Title: Huffman Encoding
+Definition: 
+Topics:
+  - Compression
+  - Greedy trees
+  - Week 13 — Dynamic Programming Foundations
+
+[DAY 90]
+Title: DP Introduction
+Definition: 
+Topics:
+  - Memoization
+  - Tabulation
+  - State transition
+
+[DAY 91]
+Title: Fibonacci DP
+Definition: 
+Topics:
+  - Bottom-up DP
+  - Space optimization
+
+[DAY 92]
+Title: Climbing Stairs
+Definition: 
+Topics:
+  - State transitions
+  - Ways counting
+
+[DAY 93]
+Title: House Robber Problem
+Definition: 
+Topics:
+  - Adjacent constraints
+  - Linear DP
+
+[DAY 94]
+Title: 0/1 Knapsack
+Definition: 
+Topics:
+  - Pick/not pick
+  - Capacity DP
+
+[DAY 95]
+Title: Unbounded Knapsack
+Definition: 
+Topics:
+  - Infinite reuse
+  - Variation understanding
+
+[DAY 96]
+Title: Coin Change
+Definition: 
+Topics:
+  - Minimum coins
+  - Number of combinations
+  - Week 14 — Advanced Dynamic Programming
+
+[DAY 97]
+Title: Longest Increasing Subsequence
+Definition: 
+Topics:
+  - Sequence DP
+  - Binary search optimization
+
+[DAY 98]
+Title: Longest Common Subsequence
+Definition: 
+Topics:
+  - 2D DP
+  - Matching states
+
+[DAY 99]
+Title: Edit Distance
+Definition: 
+Topics:
+  - Insert/delete/replace
+  - String transformation
+
+[DAY 100]
+Title: Partition DP
+Definition: 
+Topics:
+  - Matrix chain multiplication
+  - Optimal partitioning
+
+[DAY 101]
+Title: DP on Grids
+Definition: 
+Topics:
+  - Unique paths
+  - Minimum path sum
+
+[DAY 102]
+Title: DP on Subsequences
+Definition: 
+Topics:
+  - Target sum
+  - Subset partition
+
+[DAY 103]
+Title: DP on Stocks
+Definition: 
+Topics:
+  - Buy/sell stocks
+  - State machine DP
+  - Week 15 — Advanced String Algorithms
+
+[DAY 104]
+Title: KMP Algorithm
+Definition: Efficient pattern matching using LPS array.
+Topics:
+  - Prefix suffix logic
+  - Pattern jumps
+
+[DAY 105]
+Title: Rabin-Karp Algorithm
+Definition: Rolling hash based pattern matching.
+Topics:
+  - Hashing strings
+  - Collision handling
+
+[DAY 106]
+Title: Z Algorithm
+Definition: Linear-time string matching.
+Topics:
+  - Z-array construction
+  - Prefix matches
+
+[DAY 107]
+Title: Trie Data Structure
+Definition: Prefix tree for string retrieval.
+Topics:
+  - Insert/search
+  - Prefix lookup
+
+[DAY 108]
+Title: Trie Applications
+Definition: 
+Topics:
+  - Auto complete
+  - Word dictionary
+  - XOR trie basics
+
+[DAY 109]
+Title: String Hashing
+Definition: 
+Topics:
+  - Polynomial rolling hash
+  - Substring hashing
+  - Week 16 — Advanced Data Structures
+
+[DAY 110]
+Title: Comparable vs Comparator
+Definition: 
+Topics:
+  - Custom sorting
+  - Lambda sorting
+
+[DAY 111]
+Title: Collections Framework
+Definition: 
+Topics:
+  - ArrayList
+  - LinkedList
+  - TreeMap
+  - HashMap
+
+[DAY 112]
+Title: Segment Tree Basics
+Definition: Tree for efficient range queries.
+Topics:
+  - Build/query/update
+
+[DAY 113]
+Title: Fenwick Tree (BIT)
+Definition: Efficient prefix query structure.
+Topics:
+  - Prefix updates
+  - Binary indexed logic
+
+[DAY 114]
+Title: Sparse Table
+Definition: Fast immutable range queries.
+Topics:
+  - RMQ
+  - Preprocessing
+
+[DAY 115]
+Title: Ordered Sets & Maps
+Definition: 
+Topics:
+  - TreeSet
+  - TreeMap
+  - Ceiling/floor operations
+  - Week 17 — Advanced Problem Solving
+
+[DAY 116]
+Title: Pattern Recognition in DSA
+Definition: 
+Topics:
+  - Identify sliding window
+  - Identify DP
+  - Identify graphs
+
+[DAY 117]
+Title: Recursion → DP Conversion
+Definition: 
+Topics:
+  - Memoization conversion
+  - Bottom-up conversion
+
+[DAY 118]
+Title: Monotonic Stack Applications
+Definition: 
+Topics:
+  - Largest rectangle
+  - Rain water trapping
+
+[DAY 119]
+Title: Advanced Binary Search Problems
+Definition: 
+Topics:
+  - Peak element
+  - Search insert position
+
+[DAY 120]
+Title: Advanced Interval Problems
+Definition: 
+Topics:
+  - Insert interval
+  - Meeting rooms
+
+[DAY 121]
+Title: XOR Interview Problems
+Definition: 
+Topics:
+  - Missing numbers
+  - Unique elements
+
+[DAY 122]
+Title: Math Algorithms
+Definition: 
+Topics:
+  - GCD
+  - Sieve of Eratosthenes
+  - Modular arithmetic
+  - Week 18 — Competitive Programming Foundations
+
+[DAY 123]
+Title: Fast Input/Output in Java
+Definition: 
+Topics:
+  - BufferedReader
+  - FastScanner
+
+[DAY 124]
+Title: Recursion Optimization
+Definition: 
+Topics:
+  - Tail recursion
+  - Stack depth
+
+[DAY 125]
+Title: Greedy vs DP Recognition
+Definition: 
+Topics:
+  - When greedy fails
+  - Optimal substructure
+
+[DAY 126]
+Title: Advanced BFS/DFS Problems
+Definition: 
+Topics:
+  - Islands
+  - Flood fill
+
+[DAY 127]
+Title: Backtracking Interview Problems
+Definition: 
+Topics:
+  - Sudoku solver
+  - Word search
+
+[DAY 128]
+Title: Priority Queue Advanced Problems
+Definition: 
+Topics:
+  - Median finder
+  - Merge K sorted arrays
+
+[DAY 129]
+Title: Advanced Heap Problems
+Definition: 
+Topics:
+  - Top K frequent elements
+  - Heap optimizations
+  - Week 19 — Revision & Mock Interviews
+
+[DAY 130]
+Title: Arrays Revision
+Definition: 
+
+[DAY 131]
+Title: Strings Revision
+Definition: 
+
+[DAY 132]
+Title: Linked Lists Revision
+Definition: 
+
+[DAY 133]
+Title: Stack & Queue Revision
+Definition: 
+
+[DAY 134]
+Title: Trees Revision
+Definition: 
+
+[DAY 135]
+Title: Graphs Revision
+Definition: 
+
+[DAY 136]
+Title: DP Revision
+Definition: 
+
+[DAY 137]
+Title: Easy Mock Interview
+Definition: 
+
+[DAY 138]
+Title: Medium Mock Interview
+Definition: 
+
+[DAY 139]
+Title: Hard Mock Interview
+Definition: 
+
+[DAY 140]
+Title: Timed Problem Solving
+Definition: 
+
+[DAY 141]
+Title: Blind 75 Practice
+Definition: 
+
+[DAY 142]
+Title: NeetCode Pattern Revision
+Definition: 
+
+[DAY 143]
+Title: LeetCode Contest Simulation
+Definition: 
+
+[DAY 144]
+Title: Most Important Graph Problems
+Definition: 
+
+[DAY 145]
+Title: Most Important DP Problems
+Definition: 
+
+[DAY 146]
+Title: Most Important Sliding Window Problems
+Definition: 
+
+[DAY 147]
+Title: Most Important Tree Problems
+Definition: 
+
+[DAY 148]
+Title: Most Important Binary Search Problems
+Definition: 
+
+[DAY 149]
+Title: Mixed Hard Problems
+Definition: 
+
+[DAY 150]
+Title: Final DSA Mastery Day
+Definition: 
+Topics:
+  - Solve problems independently
+  - Revise patterns
+  - Build personal cheat sheet
+  - Analyze weaknesses
+  - Prepare interview strategy
+  - Confidence building
+  - ✅ Major Algorithms Included
+  - This roadmap now includes:
+  - Kadane’s Algorithm
+  - Dutch National Flag Algorithm
+  - Two Pointers
+  - Sliding Window
+  - Prefix Sum
+  - Difference Arrays
+  - Merge Sort
+  - Quick Sort
+  - Counting Sort
+  - Radix Sort
+  - Quick Select
+  - Binary Search
+  - Binary Search on Answer
+  - Boyer-Moore Majority Vote
+  - BFS
+  - DFS
+  - Topological Sort
+  - Floyd Cycle Detection
+  - Dijkstra
+  - Bellman-Ford
+  - Floyd-Warshall
+  - Kruskal
+  - Prim
+  - Union Find (DSU)
+  - Backtracking
+  - Bit Manipulation
+  - Monotonic Stack
+  - Monotonic Queue
+  - Greedy Algorithms
+  - Interval Problems
+  - Dynamic Programming
+  - LIS
+  - LCS
+  - Edit Distance
+  - Coin Change
+  - Matrix Chain Multiplication
+  - KMP
+  - Rabin-Karp
+  - Z Algorithm
+  - Trie
+  - Segment Tree
+  - Fenwick Tree
+  - Sparse Table
+  - Heap Problems
+  - Graph Cycle Detection
+  - Multi-Source BFS
+  - Grid Shortest Path
+  - Collections Framework
+  - Comparator/Comparable
+  - Competitive Programming Foundations
+  - This is now a near-complete interview-grade DSA roadmap for 2026.
+

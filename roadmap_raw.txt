@@ -1,0 +1,6 @@
+Ultimate 150-Day Java + DSA Mastery Roadmap (2026 Edition)
+Goal:Master Java, Data Structures, Algorithms, Interview Patterns, and Problem Solving deeply enough for internships, coding rounds, competitive programming foundations, and advanced technical interviews.
+Structure:
+150 unique learning days
+Every day introduces a focused topic
+Includes definitions, algorithm intuition, and practical implementation goals
