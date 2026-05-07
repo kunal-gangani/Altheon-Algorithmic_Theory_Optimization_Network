@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../core/services/progress_service.dart';
+import '../../../topic_detail/pages/topic_detail_page.dart';
 import '../bloc/roadmap_bloc.dart';
 import '../bloc/roadmap_event.dart';
 import '../bloc/roadmap_state.dart';
@@ -79,6 +80,17 @@ class RoadmapPage extends StatelessWidget {
                                           LoadRoadmap(),
                                         );
                                       }
+                                    }
+                                  : null,
+                              onTap: (active || completed)
+                                  ? () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (_) =>
+                                              TopicDetailPage(roadmap: item),
+                                        ),
+                                      );
                                     }
                                   : null,
                             );
