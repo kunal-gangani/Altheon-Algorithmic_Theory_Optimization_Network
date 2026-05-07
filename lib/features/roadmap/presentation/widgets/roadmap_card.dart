@@ -3,17 +3,19 @@ import 'package:flutter/material.dart';
 class RoadmapCard extends StatelessWidget {
   final String day;
   final String title;
-  final String status;
   final List<String> tasks;
   final bool active;
+  final bool completed;
+  final VoidCallback? onComplete;
 
   const RoadmapCard({
     super.key,
     required this.day,
     required this.title,
-    required this.status,
     required this.tasks,
     required this.active,
+    required this.completed,
+    this.onComplete,
   });
 
   @override
@@ -67,6 +69,25 @@ class RoadmapCard extends StatelessWidget {
                 ),
               ),
             ),
+
+            const SizedBox(height: 16),
+
+            if (active)
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: onComplete,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF00FFFF),
+                    foregroundColor: Colors.black,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                  ),
+                  child: const Text(
+                    'MARK AS COMPLETE',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ),
           ],
         ),
       ),

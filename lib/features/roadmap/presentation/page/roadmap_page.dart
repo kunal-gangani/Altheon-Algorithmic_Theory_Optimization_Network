@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../../../core/services/progress_service.dart';
 import '../bloc/roadmap_bloc.dart';
+import '../bloc/roadmap_event.dart';
 import '../bloc/roadmap_state.dart';
-
 import '../widgets/background_design.dart';
 import '../widgets/roadmap_card.dart';
 import '../widgets/top_section.dart';
@@ -33,9 +34,10 @@ class RoadmapPage extends StatelessWidget {
 
                 if (state is RoadmapLoaded) {
                   final roadmap = state.roadmap;
+                  final currentDay = ProgressService.getCurrentDay();
 
                   final completedDays = roadmap
-                      .where((e) => e.isCompleted)
+                      .where((e) => e.day < currentDay)
                       .length;
 
                   final totalDays = roadmap.length;
@@ -57,16 +59,28 @@ class RoadmapPage extends StatelessWidget {
                           itemBuilder: (context, index) {
                             final item = roadmap[index];
 
+                            final completed = item.day < currentDay;
+                            final active = item.day == currentDay;
+                            final locked = item.day > currentDay;
+
                             return RoadmapCard(
                               day: 'DAY ${item.day}',
-
                               title: item.title,
-
-                              status: item.status,
-
                               tasks: item.tasks,
-
-                              active: item.isActive,
+                              active: active,
+                              completed: completed,
+                              onComplete: active
+                                  ? () async {
+                                      await ProgressService.completeDay(
+                                        item.day,
+                                      );
+                                      if (context.mounted) {
+                                        context.read<RoadmapBloc>().add(
+                                          LoadRoadmap(),
+                                        );
+                                      }
+                                    }
+                                  : null,
                             );
                           },
                         ),
