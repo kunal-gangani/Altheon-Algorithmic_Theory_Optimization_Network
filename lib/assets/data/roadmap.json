@@ -461,47 +461,48 @@
                         },
                         {
                             "day": 40,
-                            "title": "Quick Select",
-                            "definition": "Find kth smallest/largest efficiently.",
+                            "title": "Rotated Sorted Array Search",
+                            "definition": "Binary search on partially ordered arrays.",
                             "topics": [
-                                "Partition reuse",
-                                "Average O(n)"
+                                "Pivot Logic",
+                                "Sorted Half Detections"
                             ]
                         },
                         {
                             "day": 41,
-                            "title": "Quick Select",
-                            "definition": "Find kth smallest/largest efficiently.",
+                            "title": "Binary Search on Answers",
+                            "definition": "Search over solution space",
                             "topics": [
-                                "Partition reuse",
-                                "Average O(n)"
+                                "Optimization Problems",
+                                "Feasibility Checks"
                             ]
                         },
                         {
                             "day": 42,
-                            "title": "Quick Select",
-                            "definition": "Find kth smallest/largest efficiently.",
+                            "title": "Agrresive Cows Problem",
+                            "definition": "Maximize minimum distance using BS",
                             "topics": [
-                                "Partition reuse",
-                                "Average O(n)"
+                                "Greedy Placement",
+                                "Search space logic"
                             ]
                         },
                         {
                             "day": 43,
-                            "title": "Quick Select",
-                            "definition": "Find kth smallest/largest efficiently.",
+                            "title": "Boyer-Moore Majority Vote Algorithm",
+                            "definition": "Find the majority element in an array.",
                             "topics": [
-                                "Partition reuse",
-                                "Average O(n)"
+                                "Candidate Elimination",
+                                "Voting Logic"
                             ]
                         },
                         {
                             "day": 44,
-                            "title": "Quick Select",
-                            "definition": "Find kth smallest/largest efficiently.",
+                            "title": "Advanced Bit Manipulation",
+                            "definition": "Using bits for advanced optimizations.",
                             "topics": [
-                                "Partition reuse",
-                                "Average O(n)"
+                                "Single number problems",
+                                "XOR Properties",
+                                "Bit masks"
                             ]
                         }
                     ]
@@ -513,10 +514,11 @@
                         {
                             "day": 45,
                             "title": "Linked List Fundamentals",
-                            "definition": "Find kth smallest/largest efficiently.",
+                            "definition": "Dynamic linear data structure using nodes.",
                             "topics": [
-                                "Partition reuse",
-                                "Average O(n)"
+                                "Node class",
+                                "Next pointer",
+                                "Traversal"
                             ]
                         },
                         {
